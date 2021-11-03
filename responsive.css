@@ -1,0 +1,241 @@
+
+
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+
+
+	
+.under-header-text h1 {
+    font-weight:100;
+}
+.fa-2x {
+	margin-top: 22px;
+    font-size: 3em;
+}
+.column-1 h5 {
+    padding-left: 37.5%;
+    margin-top: 25px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.hello-txt {
+    margin-top: 0;
+    font-size: 225%;
+    font-family: Georgia, serif;
+}
+.name-txt{
+    margin-top:-3px;
+	margin-left:3px;
+	font-weight:bold;
+	font-size:250%;
+	font-family:"Gill Sans", sans-serif;
+	
+	
+}
+.paragraph {
+    width: 74%;
+}
+.content-3-icon {
+    padding-left: 15%;
+    padding-right: 7%;
+}
+.button-border{
+	border:1px solid #666666;
+	color:#666666;
+	margin-top:2%;
+	
+	font-size:0.6em;
+	
+}
+.mr-auto, .mx-auto {
+    margin-left: 30px!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+	font-weight:bold;
+	padding:10px;
+}
+
+.navbar-nav a .fa-search {
+    padding-top: .8rem;
+    padding-left: 1rem;
+}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+.under-header-text{
+	color:#FFFFFF;
+	text-align:center;
+	padding-top:160px;
+	font-family:"Gill Sans", sans-serif;
+}
+.under-header{
+	
+	min-height:450px;
+	background-size:cover;
+	
+	
+}
+.under-header-text h4{
+	padding-top:30px;
+}	
+
+.under-header-text h1 {
+    font-weight:0;
+	font-size:1.6em;
+}
+.h4, h4 {
+    font-size: 1rem;
+}
+.btn-group-lg > .btn, .btn-lg {
+    padding:.5rem .5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.hello-txt {
+    margin-top: -10px;
+    font-size: 140%;
+    font-family: Georgia, serif;
+}
+.name-txt {
+    margin-top: -10px;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 140%;
+    font-family: "Gill Sans", sans-serif;
+}
+.paragraph {
+    width: 90%;
+    text-align: justify;
+    font-size: .7em;
+}
+.it-works {
+    font-weight: bold;
+    font-size: 160%;
+    font-family: "Gill Sans", sans-serif;
+}
+.how {
+    float: left;
+    font-size: 160%;
+    font-family: Georgia, serif;
+    padding-left: 38%;
+    padding-right: 2%;
+}
+.lets {
+    float: left;
+    padding-left: 32%;
+    padding-right: 2%;
+    font-size: 250%;
+    font-family: Georgia, serif;
+}
+.h2, h2 {
+    font-size: 1rem;
+	font-weight:900;
+}
+.h3, h3 {
+    font-size: 1.2em;
+}
+}
+
+.all-reserved p {
+    font-size: .6em;
+    text-align: left;
+    margin-top: 10px;
+}
+.column-1 p {
+    padding: 25px 0;
+}
+.column-1 h5 {
+    padding-left: 36%;
+    margin-top: 25px;
+    font-family: "Gill Sans", sans-serif;
+}
+.content-3-icon {
+    padding-left: 15%;
+    padding-right: 10%;
+}
+.btn-group-sm > .btn, .btn-sm {
+    padding: .25rem .5rem;
+    font-size: .5rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+
+.group{
+	padding-left:32px;
+}
+
+.fa-2x {
+    
+    padding-left: 37px;
+}
+.comment {
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+    text-align: justify;
+}
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+ 
+.ka-2x {
+    padding-left: 0px;
+}
+.all-reserved p{
+	font-size:1em;
+	text-align:left;
+	margin-top:10px;
+}
+
+
+}
+

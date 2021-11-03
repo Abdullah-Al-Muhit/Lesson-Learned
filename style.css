@@ -1,0 +1,299 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+.hd a img{
+	
+	vertical-align:middle;
+	float:left;
+}
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+
+.navbar-nav a{
+	color:#FFFFFF;
+	
+	font-family:"Gill Sans", sans-serif;
+	
+}
+
+.fa-search{
+	font-size:1em;
+	color:#FFFFFF;
+	
+}
+.navbar-nav a .fa-search{
+	
+	padding-top:.6rem; 
+	padding-left:1rem;
+}
+.under-header{
+	background:url('image/Myenergyhealer1_2_.jpg') no-repeat;
+	min-height:700px;
+	background-size:cover;
+	
+	
+}
+.under-header-text{
+	color:#FFFFFF;
+	text-align:center;
+	padding-top:250px;
+	font-family:"Gill Sans", sans-serif;
+}
+.under-header-text h1{
+	font-weight:bold;
+}
+.under-header-text h4{
+	padding-top:30px;
+}
+.underline-small{
+  color::#FFFFFF;
+  display:inline-block;
+  position:relative;
+  
+}
+
+.underline-small::after{
+  content:'';
+  height:4px;
+  width:14%;
+  
+  background:#FFFFFF;
+  position:absolute;
+  left:calc(51% - 10%);
+  bottom:-20px;
+}
+.content-1{
+	background:#FFFFFF;
+	min-height:400px;
+}
+
+.column-1{
+	padding-top:90px;
+}
+.fa-2x{
+	font-size:4em;
+}
+.column-1{
+	margin-right:2%;
+}
+.column-1 h5{
+	margin-left:-2%;
+	margin-top:25px;
+	font-family:"Gill Sans", sans-serif;
+}
+.column-1 p{
+	padding:9px 0;
+	text-align:center;
+	background:#F4F4F4;
+	margin-top:25px;
+	font-family:"Gill Sans", sans-serif;
+}
+
+.content-2 {
+	padding:50px 0px;
+	background:#FFFFFF;
+	min-height:500px;
+}
+.attend-healing{
+	padding-bottom:5px;
+}
+.hello-txt {
+	margin-top:30px;
+	font-size:250%;
+	font-family: Georgia, serif;
+}
+.name-txt{
+    margin-top:30px;
+	margin-left:3px;
+	font-weight:bold;
+	font-size:250%;
+	font-family:"Gill Sans", sans-serif;
+	
+	
+}
+.paragraph {
+	width:65%;
+}
+.content-3{
+	background:#F4F4F4;
+	
+	
+}
+.hiw{
+	padding-top:60px;
+}
+
+.how {
+	
+	float:left;
+	font-size:250%;
+	font-family: Georgia, serif;
+   padding-left:38%;	
+   padding-right:1%;	
+}
+.it-works{
+	
+	
+	font-weight:bold;
+	font-size:250%;
+	font-family: Georgia, serif;
+	
+}
+
+.column-2{
+	
+	min-height:370px;
+}
+.content-3-icon{
+	padding-left:15%;
+	padding-right:15%;
+}
+.fa-1x{
+	font-size:2em;
+	margin-top:10px;
+}
+.comment{
+	color:white;
+	padding-left:5%;
+	padding-top:5%;
+	text-align:justify;
+}
+.comment-b{
+	color:black;
+	padding-left:15%;
+	padding-top:15%;
+	text-align:justify;
+}
+
+.part-1{
+	margin-top:70px;
+	margin-bottom:70px;
+}
+.part-1 img{
+	margin-top:20px;
+	margin-left:30%;
+}
+.part-1 h5{
+	margin-top:10px;
+	margin-left:30%;
+}
+
+.content-5 {
+	padding:80px 0;
+	background:#F7F7F7;
+	min-height:500px;
+}
+.bold-text{
+	padding-left:5px;
+}
+.content-6 {
+	padding:30px 0;
+	background:#FFFFFF;
+	min-height:400px;
+}
+.lets {
+	
+	float:left;
+	padding-left:42%;	
+    padding-right:1%;
+	font-size:250%;
+	font-family: Georgia, serif;
+}
+.vibe{
+   
+	font-weight:bold;
+	font-size:250%;
+	font-family:"Gill Sans", sans-serif;
+	text-align:none;
+	
+}
+.purchase{
+	text-align:center;
+}
+
+
+
+.table-class{
+	text-align:center;
+	background-color:#F7F7F7;
+	border:.2px solid #959696 ;
+	padding:40px 0;
+	
+}
+.br-r{
+	border-right:none;
+}
+.content-7{
+
+	text-align:center;
+	
+}
+.xabi{
+	padding:100px 0;
+}
+
+.xabi h1{
+	color:#FFFFFF;
+	text-align:center;
+	
+	font-family:"Gill Sans", sans-serif;
+}
+.xabi h5{
+	font-weight:bold;
+	color:#FFFFFF;
+	font-family:"Gill Sans", sans-serif;
+}
+.xabi a{
+	padding:1%;
+	font-size:120%;
+	padding:1% 4%;
+	border:1px solid #FFFFFF;
+	font-family:"Gill Sans", sans-serif;
+}
+.footer{
+	background:#FFFFFF;
+	min-height:700px;
+	
+	
+}
+
+.footer-content{
+	width:70%;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+.a-link a{
+	display:block;
+	line-height:2;
+	list-style-type:none;
+}
+.all-reserved p{
+	text-align:right !important;
+	
+}
+.button-border{
+	border:1px solid #666666;
+	color:#666666;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+	font-weight:bold;
+	padding:17px;
+}
+.navbar-nav a .fa-search {
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+}
+.mr-auto, .mx-auto {
+    margin-left: 300px!important;
+	
+}
